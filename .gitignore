@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# inputs/outputs
+*.in
+*.out
