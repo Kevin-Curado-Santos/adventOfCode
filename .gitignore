@@ -34,3 +34,9 @@
 # inputs/outputs
 *.in
 *.out
+
+# vscode 
+.vscode/
+
+# cpp compiled
+out
