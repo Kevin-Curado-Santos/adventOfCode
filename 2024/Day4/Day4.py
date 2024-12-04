@@ -24,8 +24,8 @@ def part2():
     l, h, w = parse()
     ans = 0
     
-    for y in range(len(l)):
-        for x in range(len(l[0])):
+    for y in range(h):
+        for x in range(w):
             if l[y][x] != "A" or y == 0 or y == h - 1 or x == 0 or x == w - 1:
                 continue
             # if ((l[y-1][x-1] == "M" and l[y+1][x+1] == "S") or (l[y-1][x-1] == "S" and l[y+1][x+1] == "M")) and ((l[y-1][x+1] == "M" and l[y+1][x-1] == "S") or (l[y-1][x+1] == "S" and l[y+1][x-1] == "M")):
